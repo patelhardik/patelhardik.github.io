@@ -1,38 +1,35 @@
 /* Navigation bar properties */
 
 .navbar-cv-main {
-    background: #222;
+    background: #F5F5F5; /* WhiteSmoke color */
    /* background: transparent;*/
     border-color:transparent;
     width: 1000px;
     height: 100px;
     position: relative;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-align: center;
 }
 
 .navbar-cv-main .navbar-cv-title {
     font-size: 36px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
-    color: #193E5F; /*change to kensoc color*/
+    font-weight: 600;
+    /*color: #193E5D; /* Kensoc Blue Color*/
+    /*color: #4169E1; /*RoyalBlue color*/
+    color: #87CEEB; /*SkyBlue color*/
     text-transform: uppercase;
-    text-align: center;
     margin: auto;
 }
 .navbar-cv-main .navbar-cv-title-edu {
     font-size: 18px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
-    color: #193E5F; /*change to kensoc color*/
+    font-weight: 400;
+    color: #193E5D; /* Kensoc Blue Color */
     text-transform: uppercase;
-    text-align: center;
     margin: auto;
 }
 
 .navbar-cv-main .navbar-cv-subtitle {
     font-size: 12px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
-    color: #193E5F; /*change to kensoc color*/
-    text-align: center;
+    font-weight: 400;
+    color: #193E5D; /* Kensoc Blue Color */
     margin: auto;
