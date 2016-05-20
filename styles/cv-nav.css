@@ -16,7 +16,8 @@
     font-weight: 600;
     /*color: #193E5D; /* Kensoc Blue Color*/
     /*color: #4169E1; /*RoyalBlue color*/
-    color: #87CEEB; /*SkyBlue color*/
+    /*color: #87CEEB; /*SkyBlue color*/
+    color: #00BFFF; /*DeepSkyBlue color*/
     text-transform: uppercase;
     margin: auto;
 }
