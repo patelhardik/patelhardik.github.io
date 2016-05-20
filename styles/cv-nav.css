@@ -1,15 +1,13 @@
 /* Navigation bar properties */
 
 .navbar-cv-main {
-    /*background: #222;*/
-    background: transparent;
+    background: #222;
+   /* background: transparent;*/
     border-color:transparent;
     width: 1000px;
     height: 100px;
     position: relative;
-    -webkit-transition: all .45s;
-    -moz-transition: all .45s;
-    transition: all .45s;
+    text-align: center;
 }
 
 .navbar-cv-main .navbar-cv-title {
