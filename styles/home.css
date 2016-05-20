@@ -5,3 +5,10 @@ body {
   background: rgb(204,204,204);
 }
 
+/*
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+}*/
