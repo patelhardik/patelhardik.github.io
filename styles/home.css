@@ -8,6 +8,15 @@ body {
   background: rgb(204,204,204);
 }
 
+a
+{
+    color:#193E5D;
+}
+a:hover,a:focus,a:active,a.active
+{
+    color:#FED136
+}
+
 /*
 @media print {
   body, page[size="A4"] {
