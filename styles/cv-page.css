@@ -1,0 +1,14 @@
+/* ======== International paper size in mm ======= */
+
+/* General page settings */
+cv-page {
+  background: white;
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+
