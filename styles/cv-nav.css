@@ -19,19 +19,28 @@
     /*color: #87CEEB; /*SkyBlue color*/
     color: #00BFFF; /*DeepSkyBlue color*/
     text-transform: uppercase;
-    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .navbar-cv-main .navbar-cv-title-edu {
     font-size: 18px;
     font-weight: 400;
     color: #193E5D; /* Kensoc Blue Color */
     text-transform: uppercase;
-    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .navbar-cv-main .navbar-cv-subtitle {
     font-size: 12px;
     font-weight: 400;
     color: #193E5D; /* Kensoc Blue Color */
-    margin: auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
