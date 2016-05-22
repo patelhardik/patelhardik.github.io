@@ -5,14 +5,14 @@
    /* background: transparent;*/
     border-color:transparent;
     width: 1000px;
-    height: 100px;
+    height: 150px;
     position: relative;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-align: center;
 }
 
 .navbar-cv-main .navbar-cv-title {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     /*color: #193E5D; /* Kensoc Blue Color*/
     /*color: #4169E1; /*RoyalBlue color*/
@@ -20,7 +20,7 @@
     color: #00BFFF; /*DeepSkyBlue color*/
     text-transform: uppercase;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -30,17 +30,27 @@
     color: #193E5D; /* Kensoc Blue Color */
     text-transform: uppercase;
     position: absolute;
-    top: 40%;
+    top: 30%
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .navbar-cv-main .navbar-cv-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #193E5D; /* Kensoc Blue Color */
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-cv-main .navbar-cv-menu {
     font-size: 12px;
     font-weight: 400;
     color: #193E5D; /* Kensoc Blue Color */
     position: absolute;
-    top: 70%;
+    top: 82%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
