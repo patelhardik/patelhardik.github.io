@@ -1,3 +1,5 @@
+/* ======== Master Page settings ======= */
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700);
 /*@import url("cv-page.css"); */
 
@@ -15,6 +17,18 @@ a {
 }
 a:hover,a:focus {
     color:#FED136; /* Kensoc Yellow Color */
+}
+
+/* General page settings */
+.cv {
+  background: white;
+  width: 1000px;
+  height: 100%;
+  display: block;
+  /*border:1px solid;*/
+  margin: 0 auto;
+  margin-bottom: 0px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
 }
 
 /*
