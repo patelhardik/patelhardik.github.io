@@ -6,7 +6,7 @@
 html,
 body {
   width: 100%;
-  height: 100%;
+  height: auto;
   /*background: rgb(204,204,204);*/
   background: #C0C0C0; /* Silve Color */
   /*background: #F0F0F0; /* Almost White Color */
@@ -23,7 +23,7 @@ a:hover,a:focus {
 .cv {
   background: white;
   width: 1000px;
-  height: 100%;
+  height: auto;
   display: block;
   /*border:1px solid;*/
   margin: 0 auto;
