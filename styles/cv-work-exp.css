@@ -19,3 +19,20 @@
 
 
 }
+
+.cv-work-exp-txt-lft {
+
+  float:right;
+  text-align:left;
+  padding:0 20px 0 50px;
+
+}
+
+.cv-work-exp-txt-rgt {
+
+  float:left;
+  text-align:right;
+  padding:0 20px 0 50px;
+
+
+}
