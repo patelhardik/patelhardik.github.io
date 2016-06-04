@@ -1,0 +1,20 @@
+.cv-skills {
+  color: #193E5D;
+  background-color: white;
+  height: auto;
+  position: relative;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.cv-skills-img {
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  border: 3px solid #C0C0C0;
+}
+
