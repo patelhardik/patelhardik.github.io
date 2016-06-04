@@ -14,17 +14,22 @@
   height: 200px;
   border: 3px solid #C0C0C0;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 114px;
 }
 
 .cv-edu-txt {
-  margin-top: 100px;
+  margin-top: 110px;
   margin-bottom: 50px;
  }
  
- p{
-   color: #00BFFF; /* DeepSkyBlue color*/
+.cv-edu-txt h4 {
+   color: #F0F0F0; 
  }
+
+.cv-edu-txt p {
+   color: #F0F0F0;
+ }
+ 
 .cv-edu-scdl {
 	margin-left: 150px;;
    text-align: left;
