@@ -6,42 +6,32 @@
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   text-align: center;
   padding-top: 50px;
-
 }
 
-.cv-edu-img{
+.cv-edu-img {
   background-repeat: no-repeat;
   width: 200px;
   height: 200px;
-  margin-top: 50px;
-  margin-bottom: 70px;
   border: 3px solid #C0C0C0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.cv-edu-img-lft{
-  background-color: white;
-  float: left;
-  margin-left: 150px;
+.cv-edu-txt {
+  margin-top: 100px;
+  margin-bottom: 50px;
+ }
+ 
+ p{
+   color: #00BFFF; /* DeepSkyBlue color*/
+ }
+.cv-edu-scdl {
+	margin-left: 150px;;
+   text-align: left;
 }
 
-.cv-edu-img-rgt{
-  /*background-color: white;*/
-  float: right;
-  margin-right: 150px;
-}
-.cv-edu-txt-lft {
-
-  float:right;
-  text-align:left;
-  padding:0 20px 0 50px;
-
+.cv-edu-nitk {
+   margin-right: 150px;
+   text-align: right;
 }
 
-.cv-edu-txt-rgt {
-
-  float:left;
-  text-align:right;
-  padding:0 20px 0 50px;
-
-
-}
