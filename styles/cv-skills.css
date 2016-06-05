@@ -6,15 +6,71 @@
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   text-align: center;
   padding-top: 50px;
-
+  padding-bottom: 50px;
 }
 
-.cv-skills-img {
+.cv-skills-box {
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
-  margin-top: 50px;
-  margin-bottom: 70px;
-  border: 3px solid #C0C0C0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 2px solid #C0C0C0;
 }
 
+
+.cv-skills-txt {
+  margin-left: 15px;;
+  text-align: left;
+}*/
+
+.cv-skills-txt a {
+   font-size: 14px;
+ }
+
+
+/*
+
+Reference code is taken from below and then modified for work purpose.
+
+http://codepen.io/denwo/pen/azjXzL 
+
+*/
+
+.star_rating {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 5px;
+  margin-left: 165px;
+}
+.star_rating:before {
+  display: block;
+  font-size: 14px;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  content: "\f005\f005\f005\f005\f005";
+  color: #C0C0C0; /*#F0F0F0; #818181;*/
+  text-shadow: 0 2px #F0F0F0; /*#4e4e4e;*/
+  padding-left: 5px;
+}
+.star_rating span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+.star_rating span:before {
+  font-size: 14px;
+  font-family: FontAwesome;
+  color: #FFD700;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "\f005\f005\f005\f005\f005";
+  text-shadow: 0 1px #997000;
+  display: block;
+  padding-left: 5px;
+}
