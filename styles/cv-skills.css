@@ -41,7 +41,8 @@ http://codepen.io/denwo/pen/azjXzL
   position: relative;
   display: inline-block;
   letter-spacing: 5px;
-  margin-left: 165px;
+  float:right;
+  margin-right: 15px;
 }
 .star_rating:before {
   display: block;
