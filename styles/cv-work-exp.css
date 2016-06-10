@@ -20,13 +20,13 @@
  }
 
 .cv-prof-exp p {
-   color: #F0F0F0;
+   color: #C0C0C0;
  }
 
 .cv-prof-exp-img {
   background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   /*margin-top: 50px;
   margin-bottom: 70px;*/
   border: 3px solid #C0C0C0;
@@ -38,12 +38,12 @@
 
   /*float:right;*/
   text-align:right;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 .cv-prof-exp-txt-rgt {
 
   /*float:left;*/
   text-align:left;
-  margin-top: 50px;
+ /* margin-top: 50px; */
 }
