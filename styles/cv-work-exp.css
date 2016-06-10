@@ -20,19 +20,120 @@
 
 }
 
-.cv-work-exp-txt-lft {
-
-  float:right;
-  text-align:left;
-  padding:0 20px 0 50px;
-
+.cv-prof-exp
+{
+    list-style:none;
+    padding:0;
+    position:relative
+}
+.cv-prof-exp:before
+{
+    top:0;
+    bottom:0;
+    position:absolute;
+    content:"";
+    width:2px; /* This shows the verticle line between Images */
+    background-color:#f1f1f1;
+    left:40px;
+    margin-left:-1.5px
+}
+.cv-prof-exp>li
+{
+    margin-bottom:50px;
+    position:relative;
+    min-height:50px
+}
+.cv-prof-exp>li:before,.cv-prof-exp>li:after
+{
+    content:" ";
+    display:table
+}
+.cv-prof-exp>li:after
+{
+    clear:both
 }
 
-.cv-work-exp-txt-rgt {
-
-  float:left;
-  text-align:right;
-  padding:0 20px 0 50px;
-
-
+.cv-prof-exp>li .cv-prof-exp-panel
+{
+    width:100%;
+    float:right;
+    padding:0 20px 0 100px;
+    position:relative;
+    text-align:left
 }
+.cv-prof-exp>li .cv-prof-exp-panel:before
+{
+    border-left-width:0;
+    border-right-width:15px;
+    left:-15px;
+    right:auto
+}
+.cv-prof-exp>li .cv-prof-exp-panel:after
+{
+    border-left-width:0;
+    border-right-width:14px;
+    left:-14px;
+    right:auto
+}
+.cv-prof-exp>li .cv-prof-exp-image
+{
+
+    background-repeat: no-repeat;
+    left:0;
+    margin-left:0;
+    width:150px;
+    height:150px;
+    position:absolute;
+    z-index:100;
+   /* background-color:#fed136;
+    color:#fff;
+    border-radius:100%; */
+    border:3px solid #C0C0C0;
+    text-align:center;
+   /* margin-top: 50px;
+    margin-bottom: 70px;*/
+}
+
+.cv-prof-exp>li .cv-prof-exp-image h4
+{
+    font-size:10px;
+    margin-top:12px;
+    line-height:14px
+}
+.cv-prof-exp>li.cv-prof-exp-inverted>.cv-prof-exp-panel
+{
+    float:right;
+    text-align:left;
+    padding:0 20px 0 100px
+}
+.cv-prof-exp>li.cv-prof-exp-inverted>.cv-prof-exp-panel:before
+{
+    border-left-width:0;
+    border-right-width:15px;
+    left:-15px;right:auto
+}
+.cv-prof-exp>li.cv-prof-exp-inverted>.cv-prof-exp-panel:after
+{
+    border-left-width:0;
+    border-right-width:14px;
+    left:-14px;
+    right:auto
+}
+.cv-prof-exp>li:last-child
+{
+    margin-bottom:0
+}
+.cv-prof-exp .cv-prof-exp-heading h4
+{
+    margin-top:0;
+    color:inherit
+}
+.cv-prof-exp .cv-prof-exp-heading h4.subheading
+{
+    text-transform:none
+}
+.cv-prof-exp .cv-prof-exp-body>p,.cv-prof-exp .cv-prof-exp-body>ul
+{
+    margin-bottom:0
+}
+
