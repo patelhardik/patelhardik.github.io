@@ -9,30 +9,38 @@
 
 }
 
-.cv-work-exp-img{
+.cv-prof-exp {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cv-prof-exp h4 {
+   color: #F0F0F0; 
+ }
+
+.cv-prof-exp p {
+   color: #F0F0F0;
+ }
+
+.cv-prof-exp-img {
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
-  margin-top: 50px;
-  margin-bottom: 70px;
+  /*margin-top: 50px;
+  margin-bottom: 70px;*/
   border: 3px solid #C0C0C0;
 
 
 }
 
-.cv-work-exp-txt-lft {
+.cv-prof-exp-txt-lft {
 
-  float:right;
-  text-align:left;
-  padding:0 20px 0 50px;
-
+  /*float:right;*/
+  text-align:right;
 }
 
-.cv-work-exp-txt-rgt {
+.cv-prof-exp-txt-rgt {
 
-  float:left;
-  text-align:right;
-  padding:0 20px 0 50px;
-
-
+  /*float:left;*/
+  text-align:left;
 }
