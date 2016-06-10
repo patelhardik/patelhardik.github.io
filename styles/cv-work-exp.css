@@ -6,12 +6,13 @@
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 
 .cv-prof-exp {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .cv-prof-exp h4 {
@@ -37,10 +38,12 @@
 
   /*float:right;*/
   text-align:right;
+  margin-top: 50px;
 }
 
 .cv-prof-exp-txt-rgt {
 
   /*float:left;*/
   text-align:left;
+  margin-top: 50px;
 }

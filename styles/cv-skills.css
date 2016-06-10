@@ -9,6 +9,12 @@
   padding-bottom: 50px;
 }
 
+.cv-skills-body {
+
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
 .cv-skills-box {
   background-repeat: no-repeat;
   width: 300px;
